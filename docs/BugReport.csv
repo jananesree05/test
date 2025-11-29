@@ -1,0 +1,2 @@
+ID,Title,Environment,Steps,Expected,Actual,Severity,Priority,Attachments
+BUG-001,Login fails,Windows/Chrome,1) Open app;2) Enter creds;3) Click login,Should navigate to products,Stays on login page,High,High,screenshot.png

@@ -1,0 +1,19 @@
+stages:
+  - test
+
+cache:
+  paths:
+    - node_modules/
+
+test:
+  image: node:18
+  stage: test
+  script:
+    - npm ci
+    - npx playwright install --with-deps
+    - npx playwright test --reporter=list
+  artifacts:
+    when: always
+    paths:
+      - test-results/
+    expire_in: 1 day

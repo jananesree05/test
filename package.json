@@ -1,0 +1,16 @@
+{
+  "name": "qa-assessment-jananesree",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "install:playwright": "npx playwright install",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.1.6"
+  }
+}
