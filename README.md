@@ -27,4 +27,4 @@ npm run test:headed
 5. Show report:
 ```bash
 npm run test:report
-```
+```📄 C:\PlaywrightProjects\qa-assessment\README.md
